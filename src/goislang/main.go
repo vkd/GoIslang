@@ -4,6 +4,9 @@ import "story"
 
 func main() {
 	day := story.Morning()
+	_ = day
+
 	food := day.GoToForest()
-	_ = food
+	day.Eat(food)
+
 }
